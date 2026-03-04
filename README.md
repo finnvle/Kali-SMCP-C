@@ -6,7 +6,7 @@
 
 <hr/>
 
-![KALI SMCP-C](preview_1.png)
+![KALI SMCP-C]()
 
 ## 🚀 Overview
 
