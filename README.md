@@ -24,7 +24,7 @@ Built with a lightning-fast SvelteKit frontend and a robust Python FastAPI backe
 
 ## 🛠️ Tech Stack
 
-*   **Frontend:** SvelteKit 5, Tailwind CSS v4, `marked` (Markdown parsing)
+*   **Frontend:** SvelteKit 5, Tailwind CSS v4, 
 *   **Backend:** Python 3.13, FastAPI, SQLite3 (Storage), LangChain
 *   **AI Providers:** Anthropic API, OpenAI API, Google Generative AI, Ollama
 *   **Protocol:** MCP (`mcp-client` via `stdio` bindings) mapping strictly to a remote Kali Python Flask server.
