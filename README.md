@@ -46,7 +46,7 @@ cd Kali-SMCP-C
 npm install
 ```
 
-### 3. Backend Setup
+### 3. Backend Setup (Default is localhost:8000)
 Navigate to the `backend/` directory, create a virtual environment, and install the dependencies:
 ```bash
 cd backend
