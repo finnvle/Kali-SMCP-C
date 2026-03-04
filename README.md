@@ -1,10 +1,11 @@
 <div align="center">
-  <h1>🛡️ KALI SMCP-C</h1>
+  <h1> KALI SMCP-C</h1>
   <p><strong>Simple Model Context Protocol - Console</strong></p>
   <p>A zero-trust, multi-LLM web application designed for cybersecurity professionals to orchestrate, execute, and analyze remote Kali Linux security tools via the Model Context Protocol (MCP).</p>
 </div>
 
 <hr/>
+![Uploading Screenshot 2026-03-04 154941.png…]()
 
 ## 🚀 Overview
 
