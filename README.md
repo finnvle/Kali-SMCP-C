@@ -101,7 +101,14 @@ From the **root `Kali-SMCP-C/` directory**, simply run:
 
 ```bash
 # To run Development mode (Hot-Module Replacement active)
+
+## Frontend
 npm run dev
+
+## Backend
+cd ./backend
+uvicorn main:app --port 8000 --reload
+
 ```
 
 The system will be accessible at `http://localhost:5173/`. Ensure your backend `.env` is configured and your remote Kali MCP server is online before dispatching commands.
