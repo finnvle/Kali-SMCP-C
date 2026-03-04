@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+sse-starlette
+anthropic
+langchain-core
+langchain-community
+langchain-anthropic
+mcp
+httpx
+pydantic
+python-dotenv
+langchain-ollama
+anyio
+langchain-openai
+langchain-google-genai

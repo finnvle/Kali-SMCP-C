@@ -1,0 +1,72 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+@theme {
+  --color-theme-bg: #09090b; /* Zinc 950 */
+  --color-theme-bg-panel: #18181b; /* Zinc 900 */
+  --color-theme-border: #27272a; /* Zinc 800 */
+  --color-theme-primary: #10b981; /* Emerald 500 */
+  --color-theme-primary-hover: #059669; /* Emerald 600 */
+  --color-theme-primary-light: rgba(16, 185, 129, 0.1); /* Emerald translucent */
+  --color-theme-text-main: #e4e4e7; /* Zinc 200 */
+  --font-sans: "IBM Plex Sans Thai", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+body {
+  @apply bg-theme-bg text-theme-text-main font-sans h-screen w-full overflow-hidden;
+  background-image: 
+    linear-gradient(to right, rgba(255,255,255,0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255,255,255,0.02) 1px, transparent 1px);
+  background-size: 30px 30px;
+}
+
+/* Custom scrollbar for dark theme */
+.scrollbar-thin::-webkit-scrollbar {
+  width: 6px;
+}
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: rgba(16, 185, 129, 0.15);
+  border-radius: 3px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background: rgba(16, 185, 129, 0.3);
+}
+.scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(16, 185, 129, 0.15) transparent;
+}
+
+/* ── Chat message entrance animation ── */
+@keyframes msgEntrance {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.msg-entrance {
+  animation: msgEntrance 0.35s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+/* ── Typing indicator bounce ── */
+@keyframes typingBounce {
+  0%, 60%, 100% {
+    transform: translateY(0);
+    opacity: 0.4;
+  }
+  30% {
+    transform: translateY(-6px);
+    opacity: 1;
+  }
+}
+.typing-dot {
+  animation: typingBounce 1.4s ease-in-out infinite both;
+}

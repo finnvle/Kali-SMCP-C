@@ -1,0 +1,39 @@
+node_modules/
+
+# Output
+.output
+.vercel
+.netlify
+.wrangler
+.svelte-kit/
+build/
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+.venv
+*.sqlite3
+*.db
+
+# Environment variables
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Editor
+.vscode/
+.idea/
