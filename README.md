@@ -5,7 +5,8 @@
 </div>
 
 <hr/>
-![KALI SMCP-C](https://github.com/finnvle/Kali-SMCP-C/raw/main/preview_1.png)
+
+![KALI SMCP-C](preview_1.png)
 
 ## 🚀 Overview
 
